@@ -14,7 +14,7 @@
       <div>
         <!-- Note that .Pages is the same as .Site.RegularPages on the homepage template. -->
         {{ range first 10 .Pages }}
-            {{ .Render "summary"}}
+            {{ .Summary }}
         {{ end }}
       </div>
     </main>
