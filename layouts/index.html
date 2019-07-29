@@ -13,9 +13,10 @@
       </div>
       <div>
         <!-- Note that .Pages is the same as .Site.RegularPages on the homepage template. -->
-        {{ range first 10 .Pages }}
-            {{ .Summary }}
+        {{ range .Paginator.Pages }}
+          {{ .Title }}
         {{ end }}
+        {{ template "_internal/pagination.html" . }}
       </div>
     </main>
 {{ end }}
