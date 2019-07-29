@@ -10,8 +10,8 @@ Click the file names to see the Hugo documentation pages the code came from.
 * [`layouts/_default/single.html`](https://gohugo.io/templates/single-page-templates/#posts-single-html)
 
 ### Improvements:
-* Added pagination template  to `layouts/index.html`. ([source](https://gohugo.io/templates/pagination/#build-the-navigation))
-* Added friendly page listing to `layouts/index.html`. ([source](https://gohugo.io/content-management/summaries/#example-first-10-articles-with-summaries))
+* Added [pagination template](https://gohugo.io/templates/pagination/#build-the-navigation)  to `layouts/index.html`.
+* Added [friendly page listing](https://gohugo.io/content-management/summaries/#example-first-10-articles-with-summaries) to `layouts/index.html`.
 
 ### Bugs fixed:
 * `layouts/index.html` does not render summaries. (outdated syntax)
