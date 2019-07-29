@@ -31,10 +31,10 @@
     </div>
     <div>
         {{ with .PrevInSection }}
-          <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
+          <div><a class="previous" href="{{.Permalink}}">Previous: {{.Title}}</a> </div>
         {{ end }}
         {{ with .NextInSection }}
-          <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
+          <div><a class="next" href="{{.Permalink}}">Next: {{.Title}}</a> </div>
         {{ end }}
     </div>
 </aside>
