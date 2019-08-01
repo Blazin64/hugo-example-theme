@@ -1,4 +1,4 @@
-This theme is based on the templates found at https://gohugo.io/templates/. A few minor tweaks were done to make the theme a more realistic example.
+This example theme is based on the templates found at https://gohugo.io/templates/. A few minor tweaks were done to make the theme a more realistic example.
 
 ### Reference:
 Click the file names to see the Hugo documentation pages the code came from.
