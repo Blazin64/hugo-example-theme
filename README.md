@@ -1,5 +1,7 @@
 This example theme is based on the templates found at https://gohugo.io/templates/. A few minor tweaks were done to make the theme a more realistic example.
 
+Note: Please use the [GitLab repository](https://gitlab.com/Blazin64/hugo-example-theme). The [GitHub repository](https://github.com/Blazin64/hugo-example-theme) is only a mirror.
+
 ### Reference:
 Click the file names to see the Hugo documentation pages the code came from.
 * [`theme.toml`](https://gohugo.io/contribute/themes/#create-a-theme-toml-file)
